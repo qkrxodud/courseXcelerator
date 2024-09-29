@@ -1,0 +1,29 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Compiled class file
+target/
+
+# Byte code
+*.class
+
+# Spring Boot
+log/
+logs/
+*.log
+
+# Maven
+target/
+*.jar
+!*.original
+*.war
+*.ear
+hs_err_pid*
+
+### out폴더를 제외 시키기 위한 설정 ###
+../out/
+
+# Gradle
+build/
+.gradle/
